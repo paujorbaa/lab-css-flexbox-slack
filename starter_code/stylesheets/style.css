@@ -8,3 +8,370 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+nav {
+  background-color: rgb(84, 11, 81);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: 0;
+}
+
+#nav-btns {
+  display: flex;
+  gap: 30px;
+}
+
+#slack-logo {
+  display: flex;
+  width: 30%;
+}
+
+#nav-list {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(84, 11, 81);
+}
+
+.header-title {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.header-text {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.header-text .part-1 {
+  color: rgb(255, 187, 61);
+  font-weight: bold;
+}
+
+.header-text .part-2 {
+  color: white;
+}
+
+#email-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin: 2.5%;
+  width: 95%;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(84, 11, 81);
+  margin-bottom: 15px;
+  height: 46px;
+}
+
+#google-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2.5%;
+  width: 95%;
+  background-color: rgb(66, 133, 244);
+  padding: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  height: 46px;
+}
+
+.google-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 2px;
+  padding: 8px;
+  margin-left: 5px;
+}
+
+#google-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.google-text { /* this part is chatgpt i couldn't figure it out on my own */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+}
+
+#slack-app-screenshot {
+  width: 10%;
+}
+
+#slack-app-screenshot {
+  background-color: antiquewhite;
+  margin-top: 40px;
+  width: 100%;
+}
+
+#trusted-companies {
+  background-color: rgb(238, 229, 221);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#logos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 30px 30px 30px 0;
+  row-gap: 40px;
+}
+
+.logos {
+  height: 35px;
+  width: auto;
+  background: transparent no-repeat center;
+  background-size: cover;
+}
+
+#stat-facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#stat-facts-title {
+  color: rgb(84, 11, 81);
+  font-size: 1.8em;
+  margin: 65px 10% 12px 10%;
+}
+
+#stat-facts-subtitle {
+margin: 0 5% 0 5%;
+font-weight: 600;
+}
+
+#percent-85 {
+  display:block;
+  color: rgb(84, 11, 81);
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 55px;
+  }
+
+#text-85 {
+  font-weight: 700;
+  font-size: 0.9em;
+  margin: 0 30% 0 30%;
+}
+
+#percent-86 {
+ display:block;
+  color: rgb(84, 11, 81);
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 40px;
+  }
+
+#text-86 {
+  font-weight: 700;
+  font-size: 0.9em;
+  margin: 0 30% 0 30%;
+}
+
+#percent-88 {
+ display:block;
+  color: rgb(84, 11, 81);
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 40px;
+  }
+
+  
+#text-88 {
+  font-weight: 700;
+  font-size: 0.9em;
+  margin: 0 30% 0 30%;
+  padding-bottom: 40px;
+}
+
+#weighted-avg-asterisk {
+  font-weight: 700;
+  font-size: 0.666em;
+}
+
+.small-1 {
+  display: block;
+  color: grey;
+  margin: auto 20px;
+}
+
+#digital-hq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  background-color: rgb(84, 11, 81);
+  margin-top: 40px;
+}
+
+#digital-hq-title {
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 40px 40px 15px 40px;
+}
+
+.digital-hq-btn-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin: 3.5%;
+  width: 93%;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(84, 11, 81);
+  margin-bottom: 0px;
+  height: 46px;
+}
+
+.digital-hq-btn-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  margin: 3.5%;
+  width: 93%;
+  background-color: (84, 11, 81);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+  height: 46px;
+  border: 2px solid white;
+}
+
+.line-divider {
+  height: 2px;
+  width: 88%;
+  background-color: rgb(226, 226, 226);
+  margin: 40px auto;
+}
+
+footer ul {
+list-style-type: none;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+gap: 20px;
+font-size: 0.9em;
+font-weight: 700;
+margin-left: 6%;
+margin-right: 6%;
+}
+
+.with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  height: 15px;
+}
+
+#download-slack {
+ color: rgb(66, 133, 244);
+
+}
+
+
+.with-icon img {
+  width: auto;
+  height: 12px;
+}
+
+#ul-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.small-2 {
+    display: block;
+  color: grey;
+  margin: auto 20px;
+  margin-bottom: 20px;
+}
